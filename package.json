@@ -5,5 +5,20 @@
   "main": "index.js",
   "repository": "git@github.com:tarapon/njk-cli.git",
   "author": "Ivan Tarapon <tarapon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.121",
+    "@types/node": "^11.9.5",
+    "@types/nunjucks": "^3.1.1",
+    "@types/yargs": "^12.0.9",
+    "lodash": "^4.17.11",
+    "nunjucks": "^3.1.7",
+    "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "build": "yarn run tsc"
+  }
 }

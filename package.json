@@ -1,11 +1,15 @@
 {
   "name": "njk-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nunjucks cli tool",
   "repository": "https://github.com/tarapon/njk-cli",
   "author": "Ivan Tarapon <tarapon@gmail.com>",
   "license": "MIT",
-  "keywords": ["nunjucks", "njk", "cli"],
+  "keywords": [
+    "nunjucks",
+    "njk",
+    "cli"
+  ],
   "bin": {
     "njk": "./dist/cli.js"
   },

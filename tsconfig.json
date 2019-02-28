@@ -1,19 +1,22 @@
 {
   "compilerOptions": {
-    "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
     "downlevelIteration": true,
+    "listEmittedFiles": true,
     "lib": [
       "dom",
       "es2017",
-      "ESNext.AsyncIterable"
-    ]
+      "esnext.asynciterable"
+    ],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES6"
   },
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["node_modules"]
 }

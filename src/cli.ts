@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import yargs from 'yargs'
 import path from 'path'
 import nunjucks from 'nunjucks'

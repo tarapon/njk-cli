@@ -1,0 +1,9 @@
+{
+  "name": "njk-cli",
+  "version": "1.0.0",
+  "description": "Nunjucks cli tool",
+  "main": "index.js",
+  "repository": "git@github.com:tarapon/njk-cli.git",
+  "author": "Ivan Tarapon <tarapon@gmail.com>",
+  "license": "MIT"
+}

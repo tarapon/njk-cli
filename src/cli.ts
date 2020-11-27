@@ -2,7 +2,7 @@
 import yargs from 'yargs'
 import path from 'path'
 import nunjucks from 'nunjucks'
-import { fromPairs } from 'lodash'
+import fromPairs from 'lodash.frompairs'
 
 interface CommandArgs {
   source: string
